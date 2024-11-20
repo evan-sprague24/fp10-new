@@ -2,7 +2,7 @@ import sqlite3
 import pandas as pd
 from openai import OpenAI
 # Set your OpenAI API key directly when creating the client
-client = OpenAI(api_key='enter key')
+client = OpenAI(api_key='enter key here')
 
 # Define GPT model (you can change this to another model like gpt-4 if you want)
 GPT_MODEL = "gpt-4"
